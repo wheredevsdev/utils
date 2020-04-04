@@ -1,19 +1,24 @@
 {
-  "name": "@wheredevsdev/utils",
-  "version": "0.1.0",
-  "description": "Utility methods used by developers of WhereDevsDev.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wheredevsdev/utils.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wheredevsdev/utils/issues"
-  },
-  "homepage": "https://github.com/wheredevsdev/utils#readme"
+	"name": "@wheredevsdev/utils",
+	"version": "0.1.0",
+	"description": "Utility methods used by developers of WhereDevsDev.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"prepublish": "tsc",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wheredevsdev/utils.git"
+	},
+	"contributors": [
+		"Shashank Kaul (https://github.com/kaulshashank) <kaulshashank96@gmail.com>",
+		"Rishi Kabra (https://github.com/rishikabra132) <rishikabra132@gmail.com>"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/wheredevsdev/utils/issues"
+	},
+	"homepage": "https://github.com/wheredevsdev/utils#readme"
 }
